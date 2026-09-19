@@ -86,7 +86,7 @@ the paperclip act only in combination, not alone.
 
 ![Pareto chart of standardized effects](figures/pareto-effects.png)
 
-*Pareto chart of the standardized effects: AC, AD, and C cross the significance threshold.*
+*Figure 2. Pareto chart of the standardized effects: AC, AD, and C cross the significance threshold.*
 
 **Curvature.** The five centre points averaged 2.20 s against a corner mean of
 1.86 s, and curvature was significant (F = 5.77, p = 0.023). Flight time
@@ -101,7 +101,7 @@ non-parallel (crossing) lines for both significant interactions.
 
 ![Interaction plot](figures/figure2-interaction-plot.png)
 
-*Figure 2. Interaction plot for flight time; crossing lines confirm both interactions.*
+*Figure 4. Interaction plot for flight time; crossing lines confirm both interactions.*
 
 Wing length barely matters when the wings are flat (0°) but improves flight time
 strongly when pitched to 30°: pitched wings set up the autorotation the design
@@ -118,7 +118,7 @@ expected range for 37 runs and was retained.
 
 ![Residual diagnostics](figures/residual-diagnostics.png)
 
-*Residual plots supporting the model assumptions.*
+*Figure 5. Residual plots supporting the model assumptions.*
 
 ## Optimisation and sensitivity
 
@@ -129,7 +129,7 @@ sensitivity study probed beyond the design boundaries.
 
 ![Response optimisation](figures/response-optimisation.png)
 
-*Response optimisation: the maximum sits at the upper edge of every continuous factor.*
+*Figure 6. Response optimisation: the maximum sits at the upper edge of every continuous factor.*
 
 At an 18 cm wing, flight time rose from 1.66 s at 0° to **2.60 s at 30°**, the
 longest recorded, then fell to 1.40 s at 45° as the rotor stalled and
@@ -139,7 +139,7 @@ and wider region are needed to capture the true peak.
 
 ![Sensitivity scatterplot](figures/sensitivity-scatterplot.png)
 
-*Sensitivity study: the 18 cm wing peaks at 30° then stalls at 45°.*
+*Figure 7. Sensitivity study: the 18 cm wing peaks at 30° then stalls at 45°.*
 
 > **Interpretation.** The value here is not the winning helicopter but the
 > reasoning: the analysis distinguishes real structure from noise (rejecting the
