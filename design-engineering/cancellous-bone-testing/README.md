@@ -64,14 +64,13 @@ Cow specimens had a higher mean apparent density and a markedly higher mean
 compressive strength; stiffness was somewhat higher for cows with overlapping
 spread, and failure strain was similar between species.
 
+*Table 1. Mechanical properties by species (mean ± standard deviation).*
 | Property | Pig (n = 12) | Cow (n = 10) |
 |---|:---:|:---:|
 | Apparent density (g/cm³) | 0.78 ± 0.13 | 0.91 ± 0.21 |
 | Stiffness (MPa) | 67.21 ± 22.22 | 77.99 ± 25.03 |
 | Compressive strength (MPa) | 7.85 ± 2.01 | 15.92 ± 2.70 |
 | Failure strain | 0.27 ± 0.24 | 0.24 ± 0.10 |
-
-*Table 1. Mechanical properties by species (mean ± standard deviation).*
 
 ### Property–density relationships
 
@@ -103,13 +102,13 @@ Failure strain showed no consistent density dependence in pigs (R² = 0.08); the
 cow trend (R² = 0.40) is influenced by one high-strain specimen and treated
 cautiously.
 
+
+*Table 2. Fit statistics for property vs apparent density, by species.*
 | Property | Pig R² | Cow R² | Pig exponent b | Cow exponent b |
 |---|:---:|:---:|:---:|:---:|
 | Stiffness | 0.21 | 0.14 (neg.) | +0.85 | −0.46 |
 | Strength | 0.14 | 0.06 | +0.37 | +0.12 |
 | Failure strain | 0.08 | 0.40 | −0.95 | +0.87 |
-
-*Table 2. Fit statistics for property vs apparent density, by species.*
 
 ### Species comparison
 
