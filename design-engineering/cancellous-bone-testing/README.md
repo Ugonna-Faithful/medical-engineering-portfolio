@@ -1,4 +1,4 @@
-# Mechanical Testing of Cancellous Bone — Density-Corrected Species Comparison
+# Mechanical Testing of Cancellous Bone : Density-Corrected Species Comparison
 
 Uniaxial compression testing of porcine and bovine cancellous bone, analysing
 whether the two species differ in stiffness, compressive strength, or failure
@@ -24,12 +24,12 @@ A common assumption is that apparent density alone explains cancellous bone
 mechanics, so that different species can be treated as equivalent at matched
 density. This study tests that assumption directly, asking whether pig and cow
 cancellous bone differ in stiffness, strength, or failure strain **after**
-correcting for density — a question with practical weight for choosing animal
+correcting for density, a question with practical weight for choosing animal
 models in orthopaedic research.
 
 Twelve porcine and ten bovine cores were tested in uniaxial compression.
 Stiffness, compressive strength, and failure strain were extracted from each
-stress–strain curve, then analysed against apparent density both within and
+stress-strain curve, then analysed against apparent density both within and
 between species. The specimen dataset is in [`data/`](data/).
 
 ## Stress–strain behaviour
@@ -48,9 +48,9 @@ reaches a higher peak stress, foreshadowing the strength result below.
 For each specimen, apparent density was calculated as marrow-free mass over bulk
 cylindrical volume (including pore space). From each stress–strain curve:
 
-- **Stiffness** — slope of the linear elastic region (E = Δσ/Δε)
-- **Compressive strength** — peak stress (or stress at 10% strain where no clear peak was present)
-- **Failure strain** — strain at peak stress
+- **Stiffness** : slope of the linear elastic region (E = Δσ/Δε)
+- **Compressive strength** : peak stress (or stress at 10% strain where no clear peak was present)
+- **Failure strain** : strain at peak stress
 
 Each property was then fitted against apparent density per species (power law
 *property = a·ρ^b*, via log-linear regression), and the two species were
@@ -83,7 +83,7 @@ over the same density range.
 *Figure 2. Stiffness against apparent density, both species, with per-species trendlines and R².*
 
 Stiffness increased weakly with density in pigs (R² = 0.21). The cow trendline
-is slightly negative (R² = 0.14) — not physically meaningful, and addressed
+is slightly negative (R² = 0.14), not physically meaningful, and addressed
 below as a small-sample artefact rather than a real inverse relationship.
 
 <img src="figures/figure3-strength-density.png" width="520" alt="Strength vs density">
@@ -132,8 +132,8 @@ remains roughly double pig strength** (14.37 vs 7.49 MPa).
 ## Interpretation
 
 Apparent density is an important but **incomplete** predictor of cancellous bone
-mechanics. It accounts for stiffness — consistent with the cellular-solid model
-(Gibson, 1985) and the density-scaling framework of Carter and Hayes (1977) —
+mechanics. It accounts for stiffness, consistent with the cellular-solid model
+(Gibson, 1985) and the density-scaling framework of Carter and Hayes (1977),
 but it does not account for the higher compressive strength of bovine bone. That
 residual strength difference points to species differences in trabecular
 architecture (orientation, connectivity, anisotropy) beyond bulk density, as
@@ -142,7 +142,7 @@ argued by Keaveny, Morgan and Yeh (2001) and Turner (2002).
 The weak within-species correlations are themselves meaningful: each species
 spans only a narrow density range, so density-driven variation is small relative
 to biological scatter, and the fitted exponents (mostly below 1) are lower than
-the ~2–3 reported over wider ranges — a consequence of range and sample size,
+the ~2–3 reported over wider ranges, a consequence of range and sample size,
 not a contradiction of the literature.
 
 **The negative cow stiffness trend** (Figure 2) is an artefact: two low-density
@@ -170,7 +170,7 @@ difference.
 
 ## Data
 
-- [`data/specimen_properties.csv`](data/specimen_properties.csv) — apparent density, stiffness, strength, and failure strain for all 22 specimens.
+- [`data/specimen_properties.csv`](data/specimen_properties.csv) - apparent density, stiffness, strength, and failure strain for all 22 specimens.
 
 ## References
 
