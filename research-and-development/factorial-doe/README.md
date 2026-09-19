@@ -35,6 +35,7 @@ The full dataset is in [`data/`](data/) and the analysis figures in
 
 ## Design
 
+Table 1. The four factors and their two levels in the 2⁴ full factorial design.
 | Factor | Symbol | Low (−1) | High (+1) |
 |---|:---:|:---:|:---:|
 | Wing length | A | 6.5 cm | 13.7 cm |
@@ -65,6 +66,7 @@ variation (adjusted 49.8%). Including every interaction raised the raw fit to
 77.4% but lowered its predictive value, a sign of terms fitting noise, so the
 smaller model was kept.
 
+Table 2. Analysis of variance for the fitted model.
 | Source | DF | Adj SS | Adj MS | F | P |
 |---|:---:|:---:|:---:|:---:|:---:|
 | Model | 7 | 2.4542 | 0.3506 | 6.10 | 0.000 |
