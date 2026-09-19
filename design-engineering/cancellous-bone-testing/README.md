@@ -39,7 +39,7 @@ shows a representative curve from each, with the toe, elastic region, peak
 (compressive strength), and post-yield plateau annotated. The cow specimen
 reaches a higher peak stress, foreshadowing the strength result below.
 
-![Typical stress–strain curves](figures/figure1-typical-curves.png)
+<img src="figures/figure1-typical-curves.png" width="680" alt="Typical stress–strain curves">
 
 *Figure 1. Representative stress–strain curves for a pig and a cow specimen of comparable density, plotted from the recorded test data.*
 
@@ -78,7 +78,7 @@ spread, and failure strain was similar between species.
 Both species are plotted on common axes so they can be compared directly and
 over the same density range.
 
-![Stiffness vs density](figures/figure2-stiffness-density.png)
+<img src="figures/figure2-stiffness-density.png" width="520" alt="Stiffness vs density">
 
 *Figure 2. Stiffness against apparent density, both species, with per-species trendlines and R².*
 
@@ -86,7 +86,7 @@ Stiffness increased weakly with density in pigs (R² = 0.21). The cow trendline
 is slightly negative (R² = 0.14) — not physically meaningful, and addressed
 below as a small-sample artefact rather than a real inverse relationship.
 
-![Strength vs density](figures/figure3-strength-density.png)
+<img src="figures/figure3-strength-density.png" width="520" alt="Strength vs density">
 
 *Figure 3. Compressive strength against apparent density, both species.*
 
@@ -95,7 +95,7 @@ R² = 0.06). The striking feature is the **vertical separation between species**
 at any given density the cow specimens lie well above the pig specimens, and the
 cow trendline sits entirely above the pig one across the whole density range.
 
-![Failure strain vs density](figures/figure4-failure-density.png)
+<img src="figures/figure4-failure-density.png" width="520" alt="Failure strain vs density">
 
 *Figure 4. Failure strain against apparent density, both species.*
 
