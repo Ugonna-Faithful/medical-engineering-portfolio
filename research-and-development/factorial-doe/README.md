@@ -1,4 +1,4 @@
-# Factorial Design of Experiment — Optimising Paper Helicopter Flight Time
+# Factorial Design of Experiment : Optimising Paper Helicopter Flight Time
 
 A two-level full factorial designed experiment to maximise flight time,
 including ANOVA, interaction analysis, curvature testing, response
@@ -16,14 +16,14 @@ optimisation, and a sensitivity study beyond the design region.
 
 Design of experiments (DOE) is a structured method for learning how multiple
 factors jointly affect a response, using the minimum number of runs. This study
-uses a paper helicopter — a standard vehicle for demonstrating rigorous DOE
-practice (Box, 1992) — to find the wing geometry that maximises flight time
+uses a paper helicopter, a standard vehicle for demonstrating rigorous DOE
+practice (Box, 1992), to find the wing geometry that maximises flight time
 from a fixed 3.015 m drop.
 
 Four factors were tested at two levels each: wing length (6.5–13.7 cm), wing
 width (2–4 cm), wing angle (0–30°), and the presence of a paperclip. A full
 factorial was chosen over a fractional design because four factors give only
-sixteen combinations — enough to estimate every main effect and interaction
+sixteen combinations, enough to estimate every main effect and interaction
 without confounding.
 
 The full dataset is in [`data/`](data/) and the analysis figures in
@@ -62,7 +62,7 @@ factors alone.
 
 The fitted model is significant (F = 6.10, p < 0.001) and explains 59.6% of the
 variation (adjusted 49.8%). Including every interaction raised the raw fit to
-77.4% but lowered its predictive value — a sign of terms fitting noise — so the
+77.4% but lowered its predictive value, a sign of terms fitting noise, so the
 smaller model was kept.
 
 | Source | DF | Adj SS | Adj MS | F | P |
@@ -78,8 +78,8 @@ smaller model was kept.
 *S = 0.240; R² = 59.6%; R²(adj) = 49.8%; R²(pred) = 34.4%.*
 
 **Significant effects.** Wing angle was the only significant main effect
-(p = 0.005). The strongest terms were two interactions — wing length × wing
-angle (p = 0.001) and wing length × paperclip (p = 0.003) — so wing length and
+(p = 0.005). The strongest terms were two interactions, wing length × wing
+angle (p = 0.001) and wing length × paperclip (p = 0.003), so wing length and
 the paperclip act only in combination, not alone.
 
 ![Pareto chart of standardized effects](figures/pareto-effects.png)
@@ -105,7 +105,7 @@ Wing length barely matters when the wings are flat (0°) but improves flight tim
 strongly when pitched to 30°: pitched wings set up the autorotation the design
 relies on, and a longer wing acts on a longer arm to develop more rotational
 drag (Leishman, 2006), whereas flat wings barely spin. The paperclip lengthens
-flight slightly on short wings but shortens it on long ones — its added mass
+flight slightly on short wings but shortens it on long ones, its added mass
 raises descent speed and, on a long pitched wing, suppresses autorotation, so
 the clip is harmful exactly where the helicopter performs best.
 
@@ -122,15 +122,15 @@ expected range for 37 runs and was retained.
 
 The optimiser returned wing length 13.7 cm, wing width 4 cm, wing angle 30°, no
 paperclip (fitted 2.35 s, desirability 0.90). Every continuous factor sat at its
-upper limit, meaning the response was still rising at the region edge — so a
+upper limit, meaning the response was still rising at the region edge, so a
 sensitivity study probed beyond the design boundaries.
 
 ![Response optimisation](figures/response-optimisation.png)
 
 *Response optimisation: the maximum sits at the upper edge of every continuous factor.*
 
-At an 18 cm wing, flight time rose from 1.66 s at 0° to **2.60 s at 30°** — the
-longest recorded — then fell to 1.40 s at 45° as the rotor stalled and
+At an 18 cm wing, flight time rose from 1.66 s at 0° to **2.60 s at 30°**, the
+longest recorded, then fell to 1.40 s at 45° as the rotor stalled and
 rotational drag collapsed (Leishman, 2006). The straight-line model
 overestimated the 45° flight by over a second, confirming that a curved model
 and wider region are needed to capture the true peak.
@@ -143,7 +143,7 @@ and wider region are needed to capture the true peak.
 > reasoning: the analysis distinguishes real structure from noise (rejecting the
 > over-fitted full model), reads the interactions back into physical mechanism
 > (autorotation, rotor stall), and recognises from the optimiser output that the
-> true optimum lies outside the tested region — then tests that boundary rather
+> true optimum lies outside the tested region, then tests that boundary rather
 > than reporting the edge as the answer.
 
 ## Conclusions and recommendations
@@ -152,7 +152,7 @@ Within the region tested, the longest flights came from wing length 13.7 cm,
 wing width 4 cm, wing angle 30°, no paperclip (observed mean 2.35 s). Wing angle
 controls the response through autorotation; wing length and paperclip act
 through interactions. The response is curved and still rising at the edge, with
-the true peak lying beyond it — near an 18 cm wing pitched between roughly
+the true peak lying beyond it, near an 18 cm wing pitched between roughly
 20–30°.
 
 Three next steps:
@@ -162,9 +162,9 @@ Three next steps:
 
 ## Data
 
-- [`data/factorial_32_runs.csv`](data/factorial_32_runs.csv) — the full 2⁴ dataset (32 runs).
-- [`data/centre_points.csv`](data/centre_points.csv) — five centre-point runs used in the curvature test.
-- [`data/sensitivity_runs.csv`](data/sensitivity_runs.csv) — four runs beyond the design boundary.
+- [`data/factorial_32_runs.csv`](data/factorial_32_runs.csv) : the full 2⁴ dataset (32 runs).
+- [`data/centre_points.csv`](data/centre_points.csv) : five centre-point runs used in the curvature test.
+- [`data/sensitivity_runs.csv`](data/sensitivity_runs.csv) : four runs beyond the design boundary.
 
 ## References
 
