@@ -1,0 +1,5 @@
+Run,WingLength_cm,WingAngle_deg,Time_s,Purpose
+S1,13.7,45,2.01,Angle beyond range at corner wing length
+S2,18.0,0,1.66,Wing length extrapolation at low angle
+S3,18.0,30,2.60,Wing length extrapolation at high angle
+S4,18.0,45,1.40,Combined wing length and angle extrapolation
