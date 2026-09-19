@@ -4,10 +4,10 @@ A MATLAB analysis of surface electromyography (sEMG): normalisation, digital
 filtering, muscle activation, muscle identification, and quantitative fatigue
 assessment.
 
-**Domain:** biomedical signal processing — electromyography
+**Domain:** biomedical signal processing - electromyography
 **Platform:** MATLAB (Signal Processing Toolbox)
 **Signals:** EMG (two channels), goniometer, mass
-**Trials:** Maximum Voluntary Contraction (MVC) · Repeated Flexion–Extension (RFE) · Fatigue Trial (FT)
+**Trials:** Maximum Voluntary Contraction (MVC) · Repeated Flexion-Extension (RFE) · Fatigue Trial (FT)
 
 **Competencies demonstrated:** digital filter design · frequency-domain analysis (FFT, median frequency) · feature extraction · signal integrity · validation against physiology · MATLAB programming
 
@@ -41,7 +41,7 @@ All 17 figures are in [`figures/`](figures/); the key ones are shown below.
 
 Each channel is normalised to the maximum of its MVC envelope, expressing
 subsequent activity as a fraction of peak muscle output so the trials become
-comparable. Normalisation only rescales the signal — it does not change its
+comparable. Normalisation only rescales the signal, it does not change its
 shape.
 
 ```matlab
@@ -80,7 +80,7 @@ EMG_filtered = filter(b_lp, a_lp, EMG_HP);
 > 450 Hz low-pass cutoff sits below the 500 Hz Nyquist limit while retaining the
 > dominant EMG energy. A fourth-order Butterworth was chosen for its maximally
 > flat passband and steep roll-off, separating the physiological signal from
-> low-frequency artefact and high-frequency noise without amplitude ripple —
+> low-frequency artefact and high-frequency noise without amplitude ripple,
 > and without the phase distortion higher orders introduce, which matters
 > because activation timing must be preserved. (Cutoff choices follow De Luca
 > et al., 2010 and Potvin, 1997.)
@@ -164,7 +164,7 @@ triceps' higher fibre conduction velocity.
 
 ## Limitations and further work
 
-- Single recording session — results characterise this dataset, not a population.
+- Single recording session ; results characterise this dataset, not a population.
 - Median-frequency estimation assumes approximate stationarity within each 10-second window.
 - Electrode placement and skin preparation were taken as given, not independently verified; normalisation to MVC mitigates but does not remove this.
 - Cross-talk between adjacent muscles was not explicitly quantified.
